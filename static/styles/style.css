@@ -121,7 +121,10 @@ nav a:hover {
     cursor: pointer;
 }
 
-
+hr{
+  border: none; 
+  border-top: 0.3px solid #b8b7b7;
+}
 /* photo */
 .photo{
     padding-bottom: 30px;
@@ -224,6 +227,41 @@ nav a:hover {
 .links a:hover {
   color: #ecfca1;
 }
+
+/* about me section */
+#about-me{
+  margin: 40px;
+  padding: 40px;
+  color: #ffff;
+}
+
+.about-me{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me h2{
+  font-size: 50px;
+  font-weight: bold;
+  width: 327px;
+}
+
+.about-txt{
+  width: 700px;
+}
+
+.about-txt p{
+  color: #b8b7b7;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.about-txt a{
+  text-decoration: underline;
+  color: #d3e97a;
+}
+
+
 
 @media (max-width: 768px) {
   .project-content {
