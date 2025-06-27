@@ -340,6 +340,17 @@ hr{
   background-color: #d3e97a;
 }
 
+/* footer */
+footer{
+  padding: 30px;
+  text-align: center;
+  color: #b8b7b7;
+  font-size: 18px;
+}
+
+footer span{
+  font-weight: bold;
+}
 
 @media (max-width: 768px) {
   .project-content {
