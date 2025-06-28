@@ -363,6 +363,65 @@ footer span {
   font-weight: bold;
 }
 
+/* about me page */
+.about-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.about-buttons button {
+  background-color: #222222;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.about-buttons button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+.about-buttons .cv {
+  width: 25%;
+  background-color: #c6e646;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0 0 8px rgba(211, 233, 122, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
+  height: 54px;
+  padding: 0 20px;
+  box-shadow: 0 0 8px rgba(211, 233, 122, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-buttons .cv a {
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+
+.about-buttons .cv:hover {
+  background-color: #ecfca1;
+  transform: translateY(-2px);
+  box-shadow: 0 0 16px rgba(211, 233, 122, 0.6);
+  cursor: pointer;
+}
+
+/* responsive */
 @media (max-width: 768px) {
   nav ul {
     gap: 20px;
