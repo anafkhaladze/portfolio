@@ -654,4 +654,69 @@ footer span {
     width: 100%;
     box-sizing: border-box;
   }
+
+  /* about me page */
+  .about-me {
+    padding: 20px;
+    gap: 70px;
+  }
+
+  .about-me h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-txt {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+
+  .about-buttons button {
+    justify-content: center;
+  }
+
+  .my-capabilities {
+    padding: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .my-capabilities h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .my-capabilities p{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .cap-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cap-buttons button {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .my-experience {
+    flex-direction: column;
+    margin: 40px 20px;
+  }
+
+  .experience {
+    width: 100%;
+  }
+
+  .my-experience h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .experience h4 {
+    flex-direction: column;
+    gap: 4px;
+  }
 }
