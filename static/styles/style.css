@@ -455,6 +455,40 @@ footer span {
   transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
+.my-experience {
+  margin: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-experience h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 450px;
+  line-height: 23px;
+}
+
+.experience h4 {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience span {
+  font-size: 18px;
+  color: #b8b7b7;
+}
+.experience p {
+  color: #b8b7b7;
+  margin-bottom: 30px;
+}
+
 /* responsive */
 @media (max-width: 768px) {
   nav ul {
