@@ -781,23 +781,52 @@ header {
     gap: 4px;
   }
 
+  #about-me {
+    margin: 20px;
+    padding: 20px;
+  }
+
   .about-me {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    gap: 40px;
   }
-  
+
   .about-me h2 {
-    flex: 1;
-    font-size: 2rem;
-    text-align: left;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
   }
-  
+
   .about-txt {
-    flex: 2;
+    width: 100%;
   }
-  
+
   .about-txt p {
-    font-size: 1.2rem;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  .about-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .about-buttons button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .about-buttons .cv {
+    width: 100%;
+    max-width: 280px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .about-buttons .cv a {
+    font-size: 14px;
+    padding: 0;
   }
 }
