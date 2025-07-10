@@ -550,6 +550,57 @@ header {
   }
 }
 
+/* === Entrance animation for .project === */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* projects animations */
+/* Slide-in animations */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Common hidden state */
+.project {
+  opacity: 0;
+  transform: translateX(0);
+  transition: all 0.6s ease-out;
+}
+
+.project.animate-left {
+  animation: slideInLeft 0.8s ease forwards;
+}
+
+.project.animate-right {
+  animation: slideInRight 0.8s ease forwards;
+}
+
 /* responsive */
 @media (max-width: 768px) {
   nav ul {
