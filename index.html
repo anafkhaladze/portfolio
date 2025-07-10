@@ -9,7 +9,9 @@
   </head>
   <body>
     <header>
-      <h1>Ana</h1>
+      <h1>
+        <a href="#">Ana</a>
+      </h1>
       <nav>
         <ul>
           <li>
@@ -20,6 +22,15 @@
           </li>
           <li>
             <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <button
+              id="theme-toggle"
+              aria-label="Toggle theme"
+              class="theme-toggle"
+            >
+              <span id="theme-icon">🌙</span>
+            </button>
           </li>
         </ul>
       </nav>
@@ -264,7 +275,9 @@
             </p>
             <p>
               For more info, here’s my
-              <a href="./CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+              <a href="./CV.pdf" target="_blank" rel="noopener noreferrer"
+                >CV</a
+              >
             </p>
 
             <div class="buttons">
@@ -299,7 +312,7 @@
             <input type="text" id="name" placeholder="name" />
 
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="email"/>
+            <input type="email" id="email" placeholder="email" />
 
             <label for="subject">Subject</label>
             <input type="text" id="subject" />
@@ -311,11 +324,12 @@
           </div>
         </div>
       </section>
-      <hr>
+      <hr />
     </main>
 
     <footer>
       <p>© <span> 2025 </span> | ANA</p>
     </footer>
+    <script src="./static/script/script.js"></script>
   </body>
 </html>
